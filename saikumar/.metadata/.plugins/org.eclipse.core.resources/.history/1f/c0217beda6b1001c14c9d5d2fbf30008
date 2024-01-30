@@ -1,0 +1,33 @@
+package Garage;
+
+import java.awt.Color;
+
+import javax.swing.ImageIcon;
+import javax.swing.*;
+
+
+
+public class Sai {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+			JFrame f=new JFrame();
+			f.setTitle("SaiGarage");
+			f.setDefaultCloseOperation(3);
+			f.setVisible(true);
+			f.setSize(420, 420);
+			
+	        ImageIcon i=new ImageIcon("WIN_20220216.png");
+	        f.setIconImage(i.getImage());
+	        f.getContentPane().setBackground(Color.black );
+	        JLabel l=new JLabel();
+	        l.setText("choose ur vehicle type");
+	        l.setIcon(i);
+	        f.add(l);
+	        
+		}
+
+	}
+
+

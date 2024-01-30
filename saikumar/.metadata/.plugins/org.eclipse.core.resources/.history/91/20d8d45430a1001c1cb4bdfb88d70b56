@@ -1,0 +1,39 @@
+package Nonstaticcuboid;
+
+
+
+import javax.sound.midi.MidiSystem;
+class Sai
+{
+	int no;
+	String name;
+	String branch;
+	double marks;
+	Sai(int no,String name,String branch,double marks)
+	{
+		this.no=no;
+		this.name=name;
+		this.branch=branch;
+		this.marks=marks;
+		
+		
+	}
+	public String toString()
+	{
+		return ("no is"+no+"name"+name+"bra"+branch+"marks"+marks);
+	}
+}
+
+public class std {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Sai m=new Sai(73,"sai","cse",99);
+		System.out.println(m);
+		
+		
+
+	}
+
+}

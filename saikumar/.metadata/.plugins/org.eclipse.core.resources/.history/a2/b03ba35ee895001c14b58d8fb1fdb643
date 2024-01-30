@@ -1,0 +1,27 @@
+package constructors;
+class Student
+{
+	int sno;
+	String sname;
+	Student(int sno,String sname)
+	{
+		this.sno=sno;
+		this.sname=sname;
+		
+	}
+	public String tostring()
+	{
+		return ("sno is"+sno+"sname is "+sname);
+	}
+}
+
+public class Another {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student s=new Student(1,"sai");
+		System.out.println(s);
+
+	}
+
+}
